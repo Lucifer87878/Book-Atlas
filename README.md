@@ -2,7 +2,7 @@
 
 ## Overview
 
-My Book App is a React-based application that allows users to search for books, view book details, mark books as read, and manage their favorite books. The app fetches data from the Open Library API and provides a user-friendly interface for book lovers.
+Book Atlas is a React-based application that allows users to search for books, view book details, mark books as read, and manage their favorite books. The app fetches data from the Open Library API and provides a user-friendly interface for book lovers.
 
 ## Features
 
@@ -24,8 +24,8 @@ My Book App is a React-based application that allows users to search for books, 
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/my-book-app.git
-   cd my-book-app
+   git clone https://github.com/Lucifer87878/Book-Atlas.git
+   cd Book-Atlas
 
 2. Install the dependencies:
     npm install
@@ -38,7 +38,7 @@ My Book App is a React-based application that allows users to search for books, 
 
 ## Project Structure
 
-my-book-app/
+Book-Atlas/
 ├── src/
 │   ├── assets/
 │   │   └── images/

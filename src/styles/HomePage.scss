@@ -1,0 +1,102 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .hero {
+    width: 100%;
+    height: 50vh;
+    background-image: url('../assets/images/Hero2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .search-container {
+      background: rgba(255, 255, 255, 0.457);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+
+      h1 {
+        margin: 0 0 20px;
+        color: #f19306;
+      }
+
+      input {
+        display: block;
+        margin: 10px auto;
+        padding: 10px;
+        width: 300px;
+      }
+
+      button {
+        cursor: pointer;
+        padding: 10px 20px;
+        background-color: #3f3f3fcc;
+        color: #e08a0b;
+        border: none;
+        border-radius: 5px;
+        margin: 10px 0;
+
+        &:hover {
+          background-color: #787777a3;
+        }
+      }
+    }
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    gap: 20px;
+
+    .book-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+
+      .book-card {
+        display: grid;
+        gap: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        grid-template-columns: auto 1fr;
+        align-items: start;
+
+        img {
+          max-width: 150px;
+          border-radius: 5px;
+        }
+
+        h2,
+        p {
+          margin: 0;
+        }
+
+        button {
+          cursor: pointer;
+          padding: 5px 10px;
+          background-color: #ff4d4d;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          margin-top: 10px;
+
+          &:hover {
+            background-color: #ff1a1a;
+          }
+        }
+      }
+    }
+  }
+}

@@ -34,47 +34,6 @@ Book Atlas is a React-based application that allows users to search for books, v
     npm run dev
 
 
-***********************************************************************************************************
-
-## Project Structure
-
-- Book-Atlas/
-- ├── src/
-- │ - ├── assets/
-- │ - │ - └── images/
-- │ - │ ------- ├── book-no-cover.jpg
-- │ - │ ------- └── Hero2.jpg
-- │ - ├── components/
-- │ - │ - ├── Loader/
-- │ - │ - │  -  └── Loader.jsx
-- │ - │ - ├── Navbar.jsx  
-- │ - │ - └── Rating.jsx
-- │ - ├── context/
-- │ - │ - └── BookContext.jsx
-- │ - ├── hooks/
-- │ - │ - └── useFetchBooks.js
-- │ - ├── pages/
-- │ - │ - ├── BookPage.jsx
-- │ - │ - ├── FavoritesPage.jsx
-- │ - │ - ├── HomePage.jsx
-- │ - │ - └── ReadBooksPage.jsx
-- │ - ├── styles/
-- │ - │ --├── HomePage.scss
-- │ - │ --├── Loader.scss
-- │ - │ --├── styles.scss
-- │ - │ --└── BookPage.scss
-- │ - ├── api.js
-- │ - ├── App.jsx
-- │ - └── main.jsx
-- │
-- ├── .eslintrc.cjs
-- ├── .gitignore
-- ├── index.html
-- ├── package-lock.json
-- ├── package.json
-- ├── README.md
-- └── vite.config.js
-
 *********************************************************************************************************
 
 ### Usage

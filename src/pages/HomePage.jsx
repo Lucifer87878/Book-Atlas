@@ -21,12 +21,12 @@ const HomePage = () => {
   }, []);
 
   const handleSearch = async () => {
-    setLoading(true); // Starta loader
+    setLoading(true);
     const results = await searchBooks(query);
     setBooks(results);
     localStorage.setItem('bookSearchQuery', query);
     localStorage.setItem('bookSearchResults', JSON.stringify(results));
-    setLoading(false); // Stoppa loader
+    setLoading(false);
   };
 
   const handleKeyDown = (e) => {

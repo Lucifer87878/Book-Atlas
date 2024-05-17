@@ -42,8 +42,8 @@ Book Atlas is a React-based application that allows users to search for books, v
 - ├── src/
 - │ - ├── assets/
 - │ - │ - └── images/
-- │ - │ -     - ├── book-no-cover.jpg
-- │ - │       - └── Hero2.jpg
+- │ - │ ------- ├── book-no-cover.jpg
+- │ - │ ------- └── Hero2.jpg
 - │ - ├── components/
 - │ - │ - ├── Loader/
 - │ - │ - │  -  └── Loader.jsx
@@ -59,10 +59,10 @@ Book Atlas is a React-based application that allows users to search for books, v
 - │ - │ - ├── HomePage.jsx
 - │ - │ - └── ReadBooksPage.jsx
 - │ - ├── styles/
-- │ - │ - ├── HomePage.scss
-- │ - │ - ├── Loader.scss
-- │ - │ - ├── styles.scss
-- │ - │ - └── BookPage.scss
+- │ - │ --├── HomePage.scss
+- │ - │ --├── Loader.scss
+- │ - │ --├── styles.scss
+- │ - │ --└── BookPage.scss
 - │ - ├── api.js
 - │ - ├── App.jsx
 - │ - └── main.jsx
